@@ -15,7 +15,7 @@
 
 公開中の案内画面のアドレス:
 
-**https://makosana.github.io/koukasai-map/**
+**https://cpcallgol.github.io/event-2026-festival-map/**
 
 ---
 
@@ -26,7 +26,7 @@
 | ことば | たとえると | 実際は |
 | --- | --- | --- |
 | GitHub | インターネット上の **貸し倉庫** | プログラムやファイルを置いておける場所 |
-| リポジトリ | 倉庫の中の **1つの箱** | 今回は `koukasai-map` という名前の箱 |
+| リポジトリ | 倉庫の中の **1つの箱** | 今回は `event-2026-festival-map` という名前の箱 |
 | GitHub Pages | 箱の中身を **掲示板に貼ってくれる係** | 箱の中の `docs` フォルダーを、だれでも見られるホームページにしてくれる |
 | publish.bat | 箱に **荷物を届ける宅配便** | 最新の案内データを GitHub に送るボタン |
 
@@ -43,7 +43,7 @@
                                                |
                                                | 自動で貼り出す（数分）
                                                v
-                                    https://makosana.github.io/koukasai-map/
+                                    https://cpcallgol.github.io/event-2026-festival-map/
                                                |
                                                v
                                     スマホ・家のPC・どこからでも見られる
@@ -76,12 +76,12 @@
 5. 何かキー（Enter など）を押すと黒い画面が閉じます。
 
 > 初めて使うPCでは、途中で **GitHub のログイン画面** がブラウザで開くことがあります。
-> そのときは GitHub のアカウント（Makosana）でログインしてください。1回ログインすれば、次からは聞かれません。
+> そのときは GitHub のアカウント（cpcallgol）でログインしてください。1回ログインすれば、次からは聞かれません。
 
 ### ステップ3: 待ってから確認する
 
 1. **5分くらい** 待ちます。
-2. https://makosana.github.io/koukasai-map/ を開きます。
+2. https://cpcallgol.github.io/event-2026-festival-map/ を開きます。
 3. 古いままなら、キーボードの **Ctrl を押しながら F5** を押して、読み込み直します。
 
 ---
@@ -123,7 +123,7 @@
 
 - GitHub は貼り出しに **数分かかります**。最大10分くらい待ってください。
 - **Ctrl + F5** で読み込み直してください。
-- 更新の進み具合は https://github.com/Makosana/koukasai-map/actions で見られます。
+- 更新の進み具合は https://github.com/cpcallgol/event-2026-festival-map/actions で見られます。
   緑のチェックが付いていれば貼り出し完了、黄色の丸は作業中です。
 
 ---
@@ -156,9 +156,9 @@
 4. 次の3行を、1行ずつコピーして貼り付けて Enter を押します。
 
 ```powershell
-git clone https://github.com/Makosana/koukasai-map.git koukasai_map_builder
-git -C koukasai_map_builder config user.name "Makosana"
-git -C koukasai_map_builder config user.email "Makosana@users.noreply.github.com"
+git clone https://cpcallgol@github.com/cpcallgol/event-2026-festival-map.git koukasai_map_builder
+git -C koukasai_map_builder config user.name "cpcallgol"
+git -C koukasai_map_builder config user.email "cpcallgol@users.noreply.github.com"
 ```
 
 5. `koukasai_map_builder` フォルダーができます。中の `setup.bat` をダブルクリックして準備します。
