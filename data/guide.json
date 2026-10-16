@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "revision": 24,
+  "revision": 27,
   "settings": {
     "title": "紅華祭",
     "subtitle": "POLYTECH FESTA",
@@ -779,9 +779,9 @@
       "label": "",
       "color": "#e50062",
       "image": "floors/矢印.png",
-      "x": 20.952,
-      "y": 65.931,
-      "size": 80.0,
+      "x": 56.613,
+      "y": 33.635,
+      "size": 200.0,
       "rotation": 0.0,
       "layer": 14,
       "locked": false
